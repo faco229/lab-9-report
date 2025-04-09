@@ -79,9 +79,9 @@ Present results to instructor for approval.
 Once the code has been modified correctly, the car will correctly sense an object and the wheels will spin away from the object to maintain the pecified distance. Below is a photo of the car being tested.
 
 <p align="center">
-  <img src="https://github.com/faco229/lab-9-report/blob/main/Car.HEIC" width="500">
+  <img src="https://github.com/faco229/lab-9-report/blob/main/car2.jpg" width="300">
   <br>
-  <b>Figure 3:</b> Car being stopped by hand
+  <b>Figure 9:</b> Car being stopped by hand
 </p>
 
 The car operated correctly, and should was demonstarted to and approved by the instructor.
