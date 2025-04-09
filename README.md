@@ -90,18 +90,27 @@ The car operated correctly, and should was demonstarted to and approved by the i
 
 ## Discussion
 
+The implementation of the PID controller on the Arduino successfully enabled the robot to maintain a set distance from a wall or object, demonstrating the utility of feedback control systems in real-world robotics. From our tuning process, we observed how each component of the PID—proportional (Kp), integral (Ki), and derivative (Kd)—influences system behavior. Increasing Kp made the robot respond more aggressively to distance errors, which improved reaction time but also introduced more oscillation. Adjusting Ki helped reduce steady-state error but required careful moderation to avoid instability. Finally, tweaking Kd helped smooth the motion and dampen overshoot, improving overall performance during movement and turns.
 
+One major insight gained was the importance of iterative tuning when dealing with physical systems. While theoretical values provided a starting point, real-world testing on the bench and in motion revealed the effects of motor inconsistencies and sensor noise. The use of the map() function to translate PID output into motion direction and speed proved to be an effective strategy to bridge software control and physical response. In the wall-following task, adjusting each motor’s speed based on PID output enabled dynamic and responsive navigation. This highlighted how even simple robots benefit from differential control when navigating complex environments.
 
 ---
 
 ## Conclusion
 
+This lab reinforced key principles in feedback control systems and offered valuable hands-on experience with PID tuning. By implementing a PID controller on the Arduino platform, we successfully maintained a desired distance from obstacles and walls through real-time sensor feedback and actuator adjustment. The lab demonstrated the importance of proportional, integral, and derivative components in achieving responsive, accurate, and stable behavior in autonomous systems.
+
+The most significant takeaway from this experiment is the practical understanding of how theoretical control algorithms are applied and fine-tuned in real-world systems. This lab also emphasized the value of sensor integration, system modeling, and iterative testing—skills that are foundational in modern control engineering and robotics development.
 
 ---
 
 **Citations**
 
+ChatGPT. (2025). Discussion and Conclusion for PID Feedback Controller Lab Report. OpenAI. Retrieved April 9, 2025, from https://chat.openai.com/
 
+Copilot. (2025). Summary of PID Controller Implementation in Robotics Lab. Generated on April 9, 2025, from Quinn’s conversation with copilot. 
+
+Copilot. (2025). Summary of Instruments and Components for PID Control System Implementation. Generated on April 9, 2025, from Quinn’s conversation with copilot. 
 
 ---
 
